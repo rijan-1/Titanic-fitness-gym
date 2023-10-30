@@ -1,0 +1,14 @@
+.selectGym ,option{
+    font-size:large;
+    text-size-adjust:400px;
+    width:600px;
+    height:30px;
+    background-color: rgb(139, 137, 137);
+    
+}
+
+button{
+    font-size: large;
+    background-color: blue;
+    color:white;
+}
