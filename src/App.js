@@ -27,7 +27,7 @@ function App() {
           <Route path='Membership/Location' element={<GymLocation/>}/>
           <Route path='Membership/Register' element={<RegisterPage/>}/>
           <Route path='Pages/Payments' element={<Payment/>}/>
-          <Route path='/Options/Workoutplan' elemnt={<Workoutplan/>}/>
+          <Route path='/Options/Workoutplan' element={<Workoutplan/>}/>
           
           
     

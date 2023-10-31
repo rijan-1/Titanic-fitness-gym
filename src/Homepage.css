@@ -111,7 +111,11 @@
 }
 
 .EXPLORE-Button{
-   margin-left: 1700px;;
+   margin-left: 1700px;
+   
+
+   position: relative;
+   
    
 }
 
