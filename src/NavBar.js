@@ -4,6 +4,11 @@ import {Link} from 'react-router-dom'
 
 
 export function Navbar(){
+    
+    
+ 
+
+
     return(
 <div className='background-image'>
 <fieldset className='header-fieldset'>
@@ -12,16 +17,7 @@ export function Navbar(){
 
         <Link to='/'><button className='FIND-A-GYM-Button'> HOME</button></Link>
 
-        <select className='EXPORE-Button'> 
-        <option>EXPLORE</option>
-        <option>Contact Us</option>
-        <option><p>Fitness Classes</p></option>
-        <option>FAQ</option>
-        <option>Student Gym Membership</option>
-        <option>Workout Videos</option>
-        <option>Heathly eating advice</option>
-        </select>
-       
+     
 
         <button className='LOGIN-Button'> LOGIN</button>
 

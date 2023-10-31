@@ -1,0 +1,8 @@
+.FIND-A-GYM-Button, .EXPLORE-Button{
+    display:inline-block;
+}
+
+.EXPLORE-Button{
+    position:relative;
+    top:50%;
+}

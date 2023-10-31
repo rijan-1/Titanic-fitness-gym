@@ -61,15 +61,16 @@
 }
 
 .button-container{
-    position:fixed;
+    position:relative;
     top:35%;
     bottom:65%;
+    left:60%;
     transform: translate(-50%, -50%);
  
     border: 2px solid white;
     width : 275px;
     height: 125px;
-    margin-left:750px;
+    
     background-color: black;
     box-shadow: 8px 10px black;
 }
@@ -109,6 +110,10 @@
     height:900px;
 }
 
+.EXPLORE-Button{
+   margin-left: 1700px;;
+   
+}
 
 
 
