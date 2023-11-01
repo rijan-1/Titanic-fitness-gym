@@ -12,6 +12,8 @@ import {Workoutplan} from './Options/Workoutplan.js'
 
 import {MakesUsDiff} from './MakesUsDiff.js'
 
+import {TimeTable} from './TimeTable.js'
+
 
 
 
@@ -31,6 +33,7 @@ function App() {
           <Route path='Pages/Payments' element={<Payment/>}/>
           <Route path='/Options/Workoutplan' element={<Workoutplan/>}/>
           <Route path='/MakesUsDiff' element={<MakesUsDiff/>}/>
+          <Route path='/TimeTable' element={<TimeTable/>}/>
           
           
     

@@ -34,7 +34,7 @@ export function Navbar(){
         <button>Facilities</button>
         <Link to='/MakesUsDiff'><button>What makes us different?</button></Link>
 
-        <button>Timetable</button>
+       <Link to='/TimeTable'> <button>Timetable</button></Link>
 
         <button>Reviews</button>
 

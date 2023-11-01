@@ -111,7 +111,7 @@
 .EXPLORE-Button {
     position: absolute;
     right: -15%;
-    top: -1%;
+    top: -70%;
     width: 140px; /* Adjust the width value as needed */
     height: 100px; /* Adjust the height value as needed */
 }
