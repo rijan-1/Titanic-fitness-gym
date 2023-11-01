@@ -10,6 +10,8 @@ import {Payment} from './Pages/Payments';
 
 import {Workoutplan} from './Options/Workoutplan.js'
 
+import {MakesUsDiff} from './MakesUsDiff.js'
+
 
 
 
@@ -28,6 +30,7 @@ function App() {
           <Route path='Membership/Register' element={<RegisterPage/>}/>
           <Route path='Pages/Payments' element={<Payment/>}/>
           <Route path='/Options/Workoutplan' element={<Workoutplan/>}/>
+          <Route path='/MakesUsDiff' element={<MakesUsDiff/>}/>
           
           
     

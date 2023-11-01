@@ -12,7 +12,7 @@
     border:10px solid black;
     border-bottom: 4px white;
 }
-.FIND-A-GYM-Button, .EXPORE-Button, .LOGIN-Button{
+.FIND-A-GYM-Button, .LOGIN-Button{
     background-color: black;
     color: white;
     border:0px;
@@ -33,9 +33,7 @@
     padding-right:20px;
 }
 
-.EXPORE-Button{
-    width:95px;
-}
+
 
 .subHeading-fieldset{
     background-color: black;
@@ -110,13 +108,16 @@
     height:900px;
 }
 
-.EXPLORE-Button{
-   margin-left: 1700px;
-   
-
-   position: relative;
-   
-   
+.EXPLORE-Button {
+    position: absolute;
+    right: -15%;
+    top: -1%;
+    width: 140px; /* Adjust the width value as needed */
+    height: 100px; /* Adjust the height value as needed */
+}
+.exporecontainer{
+    position: relative;
+    
 }
 
 

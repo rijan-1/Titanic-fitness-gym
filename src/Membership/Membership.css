@@ -1,69 +1,43 @@
-
-.p1,.p2,.p3{
-  
-    word-wrap: break-word;
-    
-}
-.Box1,.Box2,.Box3{
-    margin-left: 100px;
- 
-    display:inline-block;
-}
-.Box1{
-    border: 2px solid black;
-    width :300px;
-    background-color: blue;
-    border-color: white;
-    color:white;
-  
-    margin-top: 80px;
-    height:650px;
-}
-.Button1,.Button2,.Button3{
-    padding:20px;
-    padding-bottom:15px;
-    padding-top:15px;
-    background-color:black;
-    color:white;
-    border-color:white;
-    font-family:impact;
-    font-size:large;
-    margin-top:100px;
-
-}
-.Box2{
-    border: 2px solid black;
-    width :300px;
-    background-color: blue;
-    border-color: white;
-    color:white;
-    margin-left:100px;
-    margin-top: 80px;
-    height:650px;
-}
-
-.Box3{
-    border: 2px solid black;
-    width :300px;
-    background-color: blue;
-    border-color: white;
-    color:white;
-    margin-left:100px;
-    margin-top: 80px;
-    height:650px;
-}
-
-
-
-.MainMenu{
+/* Membership.css */
+.MainMenu {
     background-color: grey;
     border-color: grey;
-
-    margin-top:0 ;
-
+    margin-top: 0;
 }
-.MembershipHeading{
-    margin-top:0;
+
+.MembershipHeading {
+    margin-top: 0;
     font-size: xx-large;
     color: white;
+}
+
+.box {
+    border: 2px solid black;
+    width: 300px;
+    background-color: blue;
+    border-color: white;
+    color: white;
+    margin: 80px 20px; /* Adjust the margins as needed */
+    height: 650px;
+    text-align: center;
+}
+
+.box p {
+    width: 250px;
+    height: 500px;
+    overflow-y: auto; /* Add scroll bar for long content */
+}
+
+.button {
+    padding: 20px 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-family: Impact, sans-serif;
+    font-size: large;
+    margin-top: 20px; /* Adjust the top margin for buttons */
+}
+.box{
+    display:inline-block;
+    margin-left:5%;
 }

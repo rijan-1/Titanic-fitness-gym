@@ -23,6 +23,7 @@ export function HomePage() {
             
                 
             </div>
+            <div className='exporecontainer'>
 
             <div className='EXPLORE-Button'> 
         <button onClick={handleOpen}>EXPLORE</button>
@@ -50,6 +51,7 @@ export function HomePage() {
       ) : null}
       
 
+        </div>
         </div>
           </div>
             

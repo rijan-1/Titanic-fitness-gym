@@ -32,7 +32,7 @@ export function Navbar(){
     <div className='Subheading'>
         <button >Memberships</button>
         <button>Facilities</button>
-        <button>What makes us different?</button>
+        <Link to='/MakesUsDiff'><button>What makes us different?</button></Link>
 
         <button>Timetable</button>
 
