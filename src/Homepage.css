@@ -111,12 +111,17 @@
 .EXPLORE-Button {
     position: absolute;
    
-    width: 140px; /* Adjust the width value as needed */
-    height: 100px; /* Adjust the height value as needed */
+ 
 }
-.exporecontainer{
+.explorecontainer{
     position: relative;
-    
+    top: -123px;
+    right: 875px;
+      
+}
+
+.EXPLORE-Button{
+    height:200px;
 }
 
 

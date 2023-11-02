@@ -20,6 +20,7 @@
     margin: 80px 20px; /* Adjust the margins as needed */
     height: 650px;
     text-align: center;
+    box-shadow: 10px 10px 5px black;
 }
 
 .box p {
@@ -36,6 +37,7 @@
     font-family: Impact, sans-serif;
     font-size: large;
     margin-top: 20px; /* Adjust the top margin for buttons */
+    box-shadow: 10px 10px 5px black;
 }
 .box{
     display:inline-block;
