@@ -73,17 +73,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 35px;
+  margin-bottom:5px;
 
   }
-
+.regsterationform{
+  margin-top: 0px;;
+}
 
 .RegisterLabel *{
   margin: 0;
   padding: 0;
 }
-.RegisterLabel .RegisterInput{
-  width: 100%;
-}
+
 
 input{
   text-align: center;
@@ -91,4 +93,9 @@ input{
 
 fieldset{
   border:0px;
+}
+
+.RegisterInput{
+  width:35%;
+  height:22px;
 }

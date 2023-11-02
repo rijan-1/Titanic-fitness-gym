@@ -48,9 +48,9 @@ export function RegisterPage() {
         <fieldset>
           <legend>Do you require disabled access?</legend>
           <label class='inline' htmlFor='yesdisability'>Yes</label>
-          <input id='yesdisability' type='radio' />
+          <input id='yesdisability' type='radio' ClassName='DisabledAccess'/>
           <label class='inline' htmlFor='nodisability'>No</label>
-          <input id='nodisability' type='radio' />
+          <input id='nodisability' type='radio' ClassName='DisabledAccess'/>
         </fieldset>
         
         <fieldset>

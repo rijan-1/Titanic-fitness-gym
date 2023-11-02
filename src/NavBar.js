@@ -30,8 +30,8 @@ export function Navbar(){
 
 <fieldset className='subHeading-fieldset'>
     <div className='Subheading'>
-        <button >Memberships</button>
-        <button>Facilities</button>
+        <Link to='/Pages/AboutUs'><button >About Us</button></Link>
+        <Link to='/Pages/Facilities'><button>Facilities</button></Link>
         <Link to='/MakesUsDiff'><button>What makes us different?</button></Link>
 
        <Link to='/TimeTable'> <button>Timetable</button></Link>

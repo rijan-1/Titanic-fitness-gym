@@ -16,6 +16,10 @@ import {TimeTable} from './TimeTable.js'
 
 import {Faq} from './Pages/FAQ.js';
 
+import { Facilities } from './Pages/Facilities';
+
+import {AboutUs} from './Pages/AboutUs'
+
 
 
 
@@ -37,7 +41,8 @@ function App() {
           <Route path='/MakesUsDiff' element={<MakesUsDiff/>}/>
           <Route path='/TimeTable' element={<TimeTable/>}/>
           <Route path='/Pages/FAQ' element={<Faq/>}/>
-          
+          <Route path='/Pages/Facilities' element={<Facilities/>}/>
+          <Route path='/Pages/AboutUs' element={<AboutUs/>}/>
         
         </Routes>
       </div>
