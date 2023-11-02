@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export function GymLocation(){
     return(
-        <div className='Menu1'>
+        <div className='LocationBody'>
             <h1 className='Heading'>Choose Your gym</h1>
             <select className='selectGym'>
                 <option>Choose a Location</option>

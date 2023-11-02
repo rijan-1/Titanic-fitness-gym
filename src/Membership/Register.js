@@ -8,39 +8,39 @@ export function RegisterPage() {
       <h1 className='regsterationform'>Registration Form</h1>
       <form>
         <fieldset>
-          <label htmlFor='First-Name'>Enter Your First Name:</label>
-          <input id='First-Name' type='text' placeholder='FirstName' />
+          <label className='RegisterLabel' htmlFor='First-Name'>Enter Your First Name:
+          <input className='RegisterInput'id='First-Name' type='text' placeholder='FirstName' /></label>
           
-          <label htmlFor='Last-Name'>Enter Your Last Name:</label>
-          <input id='Last-Name' type='text' placeholder='LastName' />
+          <label className='RegisterLabel' htmlFor='Last-Name'>Enter Your Last Name:
+          <input className='RegisterInput'id='Last-Name' type='text' placeholder='LastName' /></label>
           
-          <label htmlFor='Email'>Enter Your Email:</label>
-          <input id='Email' type='email' placeholder='Email' />
+          <label className='RegisterLabel' htmlFor='Email'>Enter Your Email:
+          <input className='RegisterInput' id='Email' type='email' placeholder='Email' /></label>
           
-          <label htmlFor='Password'>Create a New Password:</label>
-          <input id='Password' type='password' placeholder='New Password' minLength='8' maxLength='55' />
+          <label className='RegisterLabel'htmlFor='Password'>Create a New Password:
+          <input className='RegisterInput'id='Password' type='password' placeholder='New Password' minLength='8' maxLength='55' /></label>
           
-          <label htmlFor='PhoneNumber'>Phone Number:</label>
-          <input id='PhoneNumber' type='text' placeholder='Phone Number' />
+          <label className='RegisterLabel'htmlFor='PhoneNumber'>Phone Number:
+          <input className='RegisterInput'id='PhoneNumber' type='text' placeholder='Phone Number' /></label>
           
-          <label htmlFor='Address'>Address:</label>
-          <input id='Address' type='text' placeholder='Address' />
+          <label className='RegisterLabel' htmlFor='Address'>Address:
+          <input className='RegisterInput'id='Address' type='text' placeholder='Address' /></label>
           
-          <label htmlFor='PostCode'>PostCode:</label>
-          <input id='PostCode' type='text' placeholder='PostCode' />
+          <label className='RegisterLabel' htmlFor='PostCode'>PostCode:
+          <input className='RegisterInput'id='PostCode' type='text' placeholder='PostCode' /></label>
           
-          <label htmlFor='DOB'>Date of Birth:</label>
-          <input id='DOB' type='date' />
+          <label htmlFor='DOB'>Date of Birth:
+          <input id='DOB' type='date' /></label>
         </fieldset>
         
         <hr />
         
         <fieldset className='gender'>
           <legend>Gender:</legend>
-          <label className='inline' htmlFor='male'>Male</label>
-          <input type='radio' name='gender' id='male' />
-          <label className='inline' htmlFor='female'>Female</label>
-          <input type='radio' name='gender' id='female' />
+          <label className='inline' htmlFor='male'>Male
+          <input type='radio' name='gender' id='male' /></label>
+          <label className='inline' htmlFor='female'>Female
+          <input type='radio' name='gender' id='female' /></label>
         </fieldset>
         
         <hr />
