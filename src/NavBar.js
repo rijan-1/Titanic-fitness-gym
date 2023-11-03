@@ -13,7 +13,7 @@ export function Navbar(){
 
     return(
 <div className='background-image'>
-<fieldset className='header-fieldset'>
+<fieldset className='header-fieldset' >
     <div className='header'>
 
 

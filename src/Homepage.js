@@ -51,9 +51,8 @@ export function HomePage() {
               <li className="Workout-plan">
                 <Link to='/Options/Workoutplan'><button>Workout plan</button></Link>
               </li>
-              <li className="menu-item">
-                <button>Menu 2</button>
-              </li>
+         
+           
             </ul>
                     </div>
             </ClickAwayListener>

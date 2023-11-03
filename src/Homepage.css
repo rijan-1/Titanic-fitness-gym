@@ -110,13 +110,16 @@
 
 .MenuNavBar{
     background-color: black;
-    width: 130px;
+    width: 105px;
     position: absolute;
     top:150px;
     padding-right:30px;
     color:black;
     border:1px solid white;
     box-shadow: 10px 10px 5px black;
+    border-top: 0px ;
+    opacity: 0.65;
+  
     
 
 }
@@ -125,6 +128,7 @@
 .MenuNavBar button{
     background-color: black;
     border:0px;
+    margin-bottom: 30px;
  
 
 

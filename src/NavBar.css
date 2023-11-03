@@ -12,3 +12,20 @@
 .background-image{
 position: relative;
 }
+
+button:hover{
+    color: yellow;
+    transform: scale(1.3);
+}
+
+button:active{
+    color: orange
+}
+
+button{
+    transition: transform 0.3s cubic-bezier(0.55, 0, 0.55, 0.2),
+    color 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);
+  transition: 0.5s;
+  cursor: pointer;
+  transform-origin: 50% 30%;
+}
