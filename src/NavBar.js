@@ -3,7 +3,9 @@ import './NavBar.css'
 import {Link} from 'react-router-dom'
 
 
+
 export function Navbar(){
+    
     
     
  
@@ -30,6 +32,7 @@ export function Navbar(){
 
 <fieldset className='subHeading-fieldset'>
     <div className='Subheading'>
+   
         <Link to='/Pages/AboutUs'><button >About Us</button></Link>
         <Link to='/Pages/Facilities'><button>Facilities</button></Link>
         <Link to='/MakesUsDiff'><button>What makes us different?</button></Link>

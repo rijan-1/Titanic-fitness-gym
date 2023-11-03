@@ -1,11 +1,17 @@
 import { HomePage} from './Homepage'
+
 import './App.css';
+
 /*import { RegisterPage} from './Pages/Register';*/
 import {BrowserRouter as Router, Routes ,Route} from 'react-router-dom';
+
 import {Membership}from './Membership/Membership';
 import {Navbar} from './NavBar';
+
 import {GymLocation} from './Membership/Location';
+
 import {RegisterPage} from './Membership/Register';
+
 import {Payment} from './Pages/Payments';
 
 import {Workoutplan} from './Options/Workoutplan.js'

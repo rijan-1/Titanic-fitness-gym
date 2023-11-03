@@ -1,13 +1,16 @@
 import './Homepage.css'
 import { Link } from 'react-router-dom'
 
-import { useState } from 'react'
-export function HomePage() {
-  const [open, setOpen] = useState(false);
+import { useState } from 'react';
 
-  const handleOpen = () => {
-    setOpen(!open);
-  };
+import ClickAwayListener from 'react-click-away-listener';
+
+
+export function HomePage() {
+ 
+
+ 
+  const [popup, setPopup] = useState(false)
 
   return (
 
@@ -23,14 +26,18 @@ export function HomePage() {
 
 
       </div>
-      <div className='explorecontainer'>
+     
 
-        <div className='EXPLORE-Button'>
-          <button onClick={handleOpen}>EXPLORE</button>
-          {open ? (
-            <ul className="menu">
+      <div className='MenuNavBar'>
+    <button onClick={() => setPopup(true)}>Menu</button>
+        
+       
+        {popup && (
+            <ClickAwayListener onClickAway={() => setPopup(false)}>
+                    <div className={'popup'}>
+                    <ul className="menuNavbar">
               <li className="Contact-us">
-                <button>Contact Us</button>
+                <button>Contact Us    </button>
               </li>
               <li className="Fitness-classes">
                 <button>Fitness Classes</button>
@@ -48,12 +55,13 @@ export function HomePage() {
                 <button>Menu 2</button>
               </li>
             </ul>
-          ) : null}
-
-
+                    </div>
+            </ClickAwayListener>
+        )}
+       
         </div>
       </div>
-    </div>
+   
 
 
 

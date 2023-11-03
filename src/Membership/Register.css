@@ -97,5 +97,12 @@ fieldset{
 
 .RegisterInput{
   width:35%;
-  height:22px;
+  height:25px;
+}
+.ButtonRegister{
+font-size: x-large;
+padding:5px;
+margin-top:30px;
+background-color:blue;
+color: aliceblue;
 }

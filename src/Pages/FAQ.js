@@ -9,7 +9,7 @@ export function Faq(){
 
             </figure>
            <div className='FAQSection1'>
-           <h3>managing my membership</h3>
+           <h3>Managing my membership</h3>
            <p>
            What do I do if I have forgotten my PIN? Simply click here, enter a few quick details and your PIN will be emailed to you.
 What do I do if my PIN does not work? If your PIN does not work and you are at the gym during staffed hours, simply ring the buzzer near the entrance portals and a member of staff will be out to support you. If you are not at the gym during staffed hours, you can contact us.

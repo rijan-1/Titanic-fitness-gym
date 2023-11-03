@@ -108,21 +108,28 @@
     height:900px;
 }
 
-.EXPLORE-Button {
+.MenuNavBar{
+    background-color: black;
+    width: 130px;
     position: absolute;
-   
- 
-}
-.explorecontainer{
-    position: relative;
-    top: -123px;
-    right: 875px;
-      
+    top:150px;
+    padding-right:30px;
+    color:black;
+    border:1px solid white;
+    box-shadow: 10px 10px 5px black;
+    
+
 }
 
-.EXPLORE-Button{
-    height:200px;
+
+.MenuNavBar button{
+    background-color: black;
+    border:0px;
+ 
+
+
 }
+
 
 
 
