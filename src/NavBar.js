@@ -1,49 +1,32 @@
-import './NavBar.css'
+import { Link } from 'react-router-dom';
+import { auth } from './config/firebase';
+import {signOut} from 'firebase/auth'
 
-import {Link} from 'react-router-dom'
+export function NavbarPage() {
 
+const handleSignOut = async() =>{
+   await signOut(auth)
+}
+  return (
+    <div>
+      <Link to='/pages/Login'>
+        <button>Login</button>
+      </Link>
 
+      <Link to='/'>
+        <button>HomePage</button>
+      </Link>
 
-export function Navbar(){
-    
-    
-    
- 
-
-
-    return(
-<div className='background-image'>
-<fieldset className='header-fieldset'>
-    <div className='header'>
-
-
-        <Link to='/'><button className='FIND-A-GYM-Button'> HOME</button></Link>
-
-     
-
-        <button className='LOGIN-Button'> LOGIN</button>
-
-
-        <Link to='/Membership/Membership' > <button className='JOIN-Button1'>  JOIN NOW</button> </Link>
-
-
-    </div >
-</fieldset >
-
-<fieldset className='subHeading-fieldset'>
-    <div className='Subheading'>
-   
-        <Link to='/Pages/AboutUs'><button >About Us</button></Link>
-        <Link to='/Pages/Facilities'><button>Facilities</button></Link>
-        <Link to='/MakesUsDiff'><button>What makes us different?</button></Link>
-
-       <Link to='/TimeTable'> <button>Timetable</button></Link>
-
-        <button>Reviews</button>
-
+      <div>
+        
+       
+            <h3>{auth.currentUser?.displayName}</h3>
+            <img src={auth.currentUser?.photoURL} width="100" height="100" alt="" />
+            <button onClick={handleSignOut}>Sign Out</button>
+         
+          
+        
+      </div>
     </div>
-
-</fieldset >
-</div>
-)
+  );
 }

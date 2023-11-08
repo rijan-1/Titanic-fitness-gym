@@ -1,33 +1,12 @@
-import { HomePage} from './Homepage'
+import { HomePage} from './pages/Homepage'
 
 import './App.css';
 
-/*import { RegisterPage} from './Pages/Register';*/
 import {BrowserRouter as Router, Routes ,Route} from 'react-router-dom';
 
-import {Membership}from './Membership/Membership';
-import {Navbar} from './NavBar';
+import {LoginPage} from './pages/Login'
 
-import {GymLocation} from './Membership/Location';
-
-import {RegisterPage} from './Membership/Register';
-
-import {Payment} from './Pages/Payments';
-
-import {Workoutplan} from './Options/Workoutplan.js'
-
-import {MakesUsDiff} from './MakesUsDiff.js'
-
-import {TimeTable} from './TimeTable.js'
-
-import {Faq} from './Pages/FAQ.js';
-
-import { Facilities } from './Pages/Facilities';
-
-import {AboutUs} from './Pages/AboutUs'
-
-
-
+import {NavbarPage} from './Navbar'
 
 function App() {
   return (
@@ -36,21 +15,18 @@ function App() {
       
   <Router>
       <div>
-        <Navbar />
+        <NavbarPage/>
+      
         <Routes>
           <Route path="/" element={<HomePage/>} /> 
-          <Route path='/Membership/Membership' element={<Membership/>}/>
-          <Route path='Membership/Location' element={<GymLocation/>}/>
-          <Route path='Membership/Register' element={<RegisterPage/>}/>
-          <Route path='Pages/Payments' element={<Payment/>}/>
-          <Route path='/Options/Workoutplan' element={<Workoutplan/>}/>
-          <Route path='/MakesUsDiff' element={<MakesUsDiff/>}/>
-          <Route path='/TimeTable' element={<TimeTable/>}/>
-          <Route path='/Pages/FAQ' element={<Faq/>}/>
-          <Route path='/Pages/Facilities' element={<Facilities/>}/>
-          <Route path='/Pages/AboutUs' element={<AboutUs/>}/>
+          <Route path='/pages/Login' element={<LoginPage/>}/>
+          
+   
+    
+         
         
         </Routes>
+  
       </div>
     </Router>
     </div>
