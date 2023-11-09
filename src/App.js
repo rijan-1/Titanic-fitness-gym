@@ -26,6 +26,7 @@ import { Facilities } from './Pages/Facilities';
 
 import {AboutUs} from './Pages/AboutUs'
 
+import {LoginPage} from './Pages/Login'
 
 
 
@@ -49,6 +50,7 @@ function App() {
           <Route path='/Pages/FAQ' element={<Faq/>}/>
           <Route path='/Pages/Facilities' element={<Facilities/>}/>
           <Route path='/Pages/AboutUs' element={<AboutUs/>}/>
+          <Route path='/Pages/Login' element ={<LoginPage/>}/>
         
         </Routes>
   

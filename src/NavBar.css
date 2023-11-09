@@ -29,3 +29,20 @@ button{
   cursor: pointer;
   transform-origin: 50% 30%;
 }
+
+
+
+
+.profileiMAGE{
+    position: absolute;
+    top: -105px;
+    left: 14px
+}
+
+.profileCaption{
+    position: absolute;
+    top:-37px;
+}
+.Subheading{
+    position:relative;
+}
