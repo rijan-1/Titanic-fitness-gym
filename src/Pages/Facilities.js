@@ -4,8 +4,10 @@ export function Facilities(){
     return(
         
         <div className="container">
+        
             
         <div className="item">
+          
           <img
             className="image"
             src="https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -16,7 +18,7 @@ export function Facilities(){
         <div className="item">
           <img
             className="image"
-            src="https://images.pexels.com/photos/7563687/pexels-photo-7563687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://images.pexels.com/photos/9794726/pexels-photo-9794726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Free wifi"
           />
           <div className="label">Free wifi</div>
@@ -40,9 +42,10 @@ export function Facilities(){
         <div className="item">
           <img
             className="image"
-            src="https://images.pexels.com/photos/864990/pexels-photo-864990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://images.pexels.com/photos/8436611/pexels-photo-8436611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Free classes"
           />
+           <div className="label">Free classes</div>
         </div>
         <div className="item">
           <img

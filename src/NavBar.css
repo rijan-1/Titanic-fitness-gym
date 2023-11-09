@@ -35,14 +35,14 @@ button{
 
 .profileiMAGE{
     position: absolute;
-    top: -105px;
-    left: 14px
+    top: 10px;
+    left: 14px;
+    border-radius: 50%;
 }
 
 .profileCaption{
     position: absolute;
-    top:-37px;
+    top:95px;
+    font-size: large;
 }
-.Subheading{
-    position:relative;
-}
+

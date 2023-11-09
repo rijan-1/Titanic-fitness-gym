@@ -22,7 +22,7 @@ const signOutHnalde= async()=>{
 <div className='background-image'>
 <fieldset className='header-fieldset' >
     <div className='header'>
-        <button onClick={signOutHnalde}>Sign Out</button>
+        <button className='signOutButton'onClick={signOutHnalde}>Sign Out</button>
 
 
         <Link to='/'><button className='FIND-A-GYM-Button'> HOME</button></Link>
@@ -42,9 +42,10 @@ const signOutHnalde= async()=>{
     <div className='Subheading'>
 <div >
     {user &&(
-<
+<>
      <h1 className='profileCaption'style ={{color:'white'}}>{user?.displayName}</h1>
         <img className='profileiMAGE'src ={user?.photoURL }alt ='idk'/>
+        </>
     )
     }
         </div>

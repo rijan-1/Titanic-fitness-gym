@@ -17,9 +17,9 @@ const handleLogin= async()=>{
 }
 
     return(
-        <div>
+        <div className='LoginBody'>
 
-        <button onClick={handleLogin}>Login</button>
+        <button className='LoginButton'onClick={handleLogin}>Google Login</button>
 
       
 
