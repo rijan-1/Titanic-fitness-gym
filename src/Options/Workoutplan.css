@@ -6,3 +6,30 @@
 .buttonname, .listname{
     display:inline-block;
 }
+
+.workoutNameApi{
+    width:700px;
+    border: black solid 3px;
+    padding:0px 14px;
+    font-size: large;
+   
+  
+}
+
+.workouts-data {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap:wrap;
+    justify-content:center;
+    position:absolute;
+    top:330px;
+
+}
+
+
+.inputworkout1{
+    position:absolute;
+    left:40%;
+    top:250px
+}

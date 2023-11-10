@@ -4,13 +4,15 @@ import axios from 'axios';
 
 export function Workoutplan() {
   const [text, setText] = useState('');
-  const [addWorkout, setAddWorkout] = useState(null);
+  const [addWorkout, setAddWorkout] = useState([]);
 
   const getWorkout = () => {
     // Check if text is not empty before making the API call
     if (text.trim() === '') {
       console.error('Muscle parameter is empty');
-      return;
+      return(
+        <p>invalid input</p>
+      )
     }
 
     axios
@@ -30,20 +32,24 @@ export function Workoutplan() {
   };
 
   return (
-    <div>
-      <input type="text" onChange={(event) => setText(event.target.value)} />
-      <button onClick={getWorkout}>Submit</button>
-      {/* Display workout data, assuming it's an array or an object */}
-      {addWorkout.map((workouts) =>{
+    <div className='apiInput'>
+      <h1>Workout Instruction generator</h1>
+      <div className='inputworkout1'>
+      <input  style={{width:'400px',height:'30px', fontSize:'20px'}}placeholder='Enter the muscle you want to workout'type="text" onChange={(event) => setText(event.target.value)} />
+      <button tyle={{width:'50px',height:'500px', fontSize:'20px'}} onClick={getWorkout}>Submit</button>
+      </div>
+    <div className='workouts-data'>
+      {/* Display workout data, assuming it's an array */}
+      {addWorkout.map((workout, index) => (
+        <div className='workoutNameApi' key={index}>
+
+          <h3>{workout.name}</h3>
+          <p>{workout.instructions}</p>
         
-        return ( <p>{workouts.instructions}</p>
-    )
-      }
-        <div>
-          <h2>Workout Details:</h2>
-          <pre>{JSON.stringify(addWorkout, null, 2)}</pre>
         </div>
-      )}
+      ))}
+    </div>
+      
     </div>
   );
 }
