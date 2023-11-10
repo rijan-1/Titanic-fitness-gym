@@ -16,7 +16,7 @@ export function Workoutplan() {
     axios
       .get(`https://api.api-ninjas.com/v1/exercises?muscle=${text}`, {
         headers: {
-          'X-Api-Key': 'nAmCzYqHGUELZqGa67Aqg==AbAEZISgNXCxq7VR',
+          'X-Api-Key': '+nAmCzYqHGUELZqGa67Aqg==AbAEZISgNXCxq7VR',
         },
       })
       .then((res) => {
@@ -34,7 +34,11 @@ export function Workoutplan() {
       <input type="text" onChange={(event) => setText(event.target.value)} />
       <button onClick={getWorkout}>Submit</button>
       {/* Display workout data, assuming it's an array or an object */}
-      {addWorkout && (
+      {addWorkout.map((workouts) =>{
+        
+        return ( <p>{workouts.instructions}</p>
+    )
+      }
         <div>
           <h2>Workout Details:</h2>
           <pre>{JSON.stringify(addWorkout, null, 2)}</pre>
